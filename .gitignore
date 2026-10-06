@@ -1,0 +1,24 @@
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Training data, outputs, and model checkpoints
+data/
+runs/
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.npz
+
+# Tooling and operating-system files
+.pytest_cache/
+.mypy_cache/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
